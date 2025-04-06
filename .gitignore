@@ -1,0 +1,29 @@
+# Virtual environment
+/.venv
+
+# Environment variables
+.env
+.env.*
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migrations
+**/migrations/
+
+# Logs
+*.log
+
+# Static and media files
+/staticfiles/
+/media/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Other hidden files
+*.envs
+*.secrets
